@@ -14,6 +14,7 @@ const Div = styled.div`
 const Wrapper = styled.div`
   width: ${props => props.width};
   height: ${props => props.height};
+  margin: auto;
   border: 1px solid;
   flex-direction: column;
   display: flex;
